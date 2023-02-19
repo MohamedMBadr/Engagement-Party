@@ -213,7 +213,8 @@ footer h5 {
  */
 @media screen and (max-width :600px) {
     .lyear {
-        height: 100% !important;
+        /* height: 100% !important; */
+        height: 150vh !important;
 
     }
 }
