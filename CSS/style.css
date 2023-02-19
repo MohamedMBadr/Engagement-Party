@@ -1,0 +1,219 @@
+.clear-fix {
+    clear: both;
+}
+
+.font_type {
+    font-family: 'Pacifico', cursive;
+}
+
+
+.header-content {
+
+    /* height: 90vh; */
+    background-image: url(../images/events-heavenly-header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.fa-heart{
+    color: #641d1f;
+}
+.finally{
+top: 40%;
+}
+.lyear {
+    /* height: 90vh; */
+
+    width: 100%;
+    background-color: rgba(243, 27, 27, 0.5);
+    background-size: 100%;
+}
+
+.nav {
+    background: #414658;
+}
+
+nav i {
+    transition: all 0.5s;
+
+}
+
+.nav-link {
+    color: #fff !important;
+    transition: all 0.5s;
+    font-size: x-large;
+}
+
+.nav-link:hover,
+nav i:hover {
+    color: #D62E33 !important;
+}
+
+nav span {
+    font-size: 30px;
+    position: absolute;
+    top: 40%;
+    left: 1%;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+.nav {
+    /* left: -15%; */
+    /* height: 100vh ; */
+    display: none;
+    position: absolute;
+    overflow: auto;
+    z-index: 999999;
+}
+
+.Singers {
+    background-color: RGBA(214, 46, 51, 0.6);
+}
+
+#Details {
+    margin: 75px 0;
+    /* padding: 20px 0; */
+}
+
+#Details h2 {
+    color: #fff;
+    font-size: 26px;
+    cursor: pointer;
+
+}
+
+#Details p {
+    background: #ccc;
+    padding: 10px;
+    display: none;
+    cursor: pointer;
+
+}
+
+.loader {
+    width: 60px;
+    height: 60px;
+    display: block;
+    margin: 20px auto;
+    position: relative;
+    background: radial-gradient(ellipse at center, #FFF 69%, rgba(0, 0, 0, 0) 70%), linear-gradient(to right, rgba(0, 0, 0, 0) 47%, rgb(219, 17, 17) 48%, rgb(223, 12, 12) 52%, rgba(0, 0, 0, 0) 53%);
+    background-size: 20px 20px, 20px auto;
+    background-repeat: repeat-x;
+    background-position: center bottom, center -5px;
+    box-sizing: border-box;
+}
+
+.loader::before,
+.loader::after {
+    content: '';
+    box-sizing: border-box;
+    position: absolute;
+    left: -20px;
+    top: 0;
+    width: 20px;
+    height: 60px;
+    background: radial-gradient(ellipse at center, rgb(231, 10, 10) 69%, rgba(0, 0, 0, 0) 70%), linear-gradient(to right, rgba(0, 0, 0, 0) 47%, #FFF 48%, #FFF 52%, rgba(0, 0, 0, 0) 53%);
+    background-size: 20px 20px, 20px auto;
+    background-repeat: no-repeat;
+    background-position: center bottom, center -5px;
+    transform: rotate(0deg);
+    transform-origin: 50% 0%;
+    animation: animPend 1s linear infinite alternate;
+}
+
+.loader::after {
+    animation: animPend2 1s linear infinite alternate;
+    left: 100%;
+}
+
+@keyframes animPend {
+    0% {
+        transform: rotate(22deg);
+    }
+
+    50% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes animPend2 {
+
+    0%,
+    55% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(-22deg);
+    }
+}
+
+/* .Duration {
+    background-image: url(../images/invitation-2508607__340.jpg);
+    background-size: cover;
+
+
+} */
+
+/* .duration-lyear {
+    background-color: RGBA(214, 46, 51, 0.6);
+    /* display: flex;
+    align-items: center;
+    justify-content: center; 
+    padding: 50px;
+    font-size: 200%;
+
+
+}  */
+
+/* .Duration h2 {
+    color: #fff;
+    border: 1px solid white;
+    padding: 50px 90px;
+    text-align: center;
+    /* background-color: #D62E33; 
+    margin: 40px;
+} */
+
+/* .container {
+    width: 85%;
+}
+
+.social i {
+    border: 1px solid #414658;
+    padding: 10px;
+    transition: all 0.5s;
+    font-size: x-large;
+}
+
+.social i:hover {
+    background-color: #D62E33;
+}
+
+.contact i,
+.contact span {
+    margin: 15px 0;
+}
+
+.mail {
+    color: #D62E33;
+}
+
+footer h2,
+footer h5 {
+    font-weight: bold;
+}
+
+.CharacyerReamining {
+    color: #D62E33;
+}
+ */
+@media screen and (max-width :600px) {
+    .lyear {
+        height: 100% !important;
+
+    }
+}
